@@ -27,10 +27,10 @@ Este projeto é uma aplicação web interativa de flashcards, que permite que vo
   + **CSS3**: Estilos para tornar a interface agradável e responsiva.
   + **JavaScript ES6+**: Para a funcionalidade de interação e manipulação dos flashcards.
 
-  ### Tecnologias Usadas
-    - **Fontes**: Google Fonts (Roboto)
-    - **CSS**: Flexbox para layout responsivo e animações suaves com transition.
-    - **JavaScript**: Utiliza módulos ES6 para estruturar o código.
+### Tecnologias Usadas
+    . **Fontes**: Google Fonts (Roboto)
+    . **CSS**: Flexbox para layout responsivo e animações suaves com transition.
+    . **JavaScript**: Utiliza módulos ES6 para estruturar o código.
 
 # Funcionalidade
 
