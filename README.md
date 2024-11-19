@@ -64,10 +64,8 @@ Este arquivo contém as **perguntas e respostas**. Você pode **adicionar** nova
 2. **Abra o arquivo index.html em um navegador.**
 3. **Interaja com os flashcards clicando nas caixas de seleção para revelar as respostas.**
 
-### PS: Caso não queira instalar o projeto, haverá uma Branch específica para download do projeto compactado
-    │
-    │
-    └── #### Name Branch: packages
+### PS: Caso não queira instalar o projeto, haverá uma Branch específica para download do projeto compactado 
+  #### Name Branch: packages
 
 # Contribuições
 Este projeto é de código aberto. Se você quiser adicionar mais perguntas, melhorar o design ou corrigir algum erro, fique à vontade para contribuir!
