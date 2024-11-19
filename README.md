@@ -5,39 +5,39 @@ Este projeto é uma aplicação web interativa de flashcards, que permite que vo
 ## Estrutura do Projeto
 - A aplicação está dividida em três partes principais:
 
-  . HTML: A estrutura da página.
-  . CSS: Estilos e formatação da página.
-  . JavaScript: Lógica para interatividade, incluindo a renderização dinâmica dos flashcards
+  . **HTML**: A estrutura da página.
+  . **CSS**: Estilos e formatação da página.
+  . **JavaScript**: Lógica para interatividade, incluindo a renderização dinâmica dos flashcards
 
 ## Estrutura de Pastas
 
-`### terminal`
+```bash
 /flashcards
-  /assets
-    style.css           # Arquivo de estilos
-  /scripts
-    app.js              # Lógica principal de interação com os flashcards
-    pergunta.js         # Perguntas e respostas
-  index.html            # Página principal
+  ├── /assets
+  │     └── style.css            # Arquivo de estilos
+  ├── /scripts
+  │     ├── app.js               # Lógica principal de interação com os flashcards
+  │     └── pergunta.js          # Perguntas e respostas
+  └── index.html                 # Página principal
 
 ## Dependências
 
-  + HTML5: Marcações básicas de estrutura da página.
-  + CSS3: Estilos para tornar a interface agradável e responsiva.
-  + JavaScript ES6+: Para a funcionalidade de interação e manipulação dos flashcards.
+  + **HTML5**: Marcações básicas de estrutura da página.
+  + **CSS3**: Estilos para tornar a interface agradável e responsiva.
+  + **JavaScript ES6+**: Para a funcionalidade de interação e manipulação dos flashcards.
 
   ### Tecnologias Usadas
-    - Fontes: Google Fonts (Roboto)
-    - CSS: Flexbox para layout responsivo e animações suaves com transition.
-    - JavaScript: Utiliza módulos ES6 para estruturar o código.
+    - **Fontes**: Google Fonts (Roboto)
+    - **CSS**: Flexbox para layout responsivo e animações suaves com transition.
+    - **JavaScript**: Utiliza módulos ES6 para estruturar o código.
 
 # Funcionalidade
 
 ## 1. Flashcards Dinâmicos
 As perguntas são agrupadas por categorias e exibidas como cartões interativos. Cada flashcard tem:
 
-  - Pergunta: Uma questão que o usuário pode ler.
-  - Resposta: Inicialmente oculta, sendo revelada ao marcar a caixa de seleção ao lado da pergunta.
+  - **Pergunta**: Uma questão que o usuário pode ler.
+  - **Resposta**: Inicialmente oculta, sendo revelada ao marcar a caixa de seleção ao lado da pergunta.
 ## 2. Interatividade
   
   - Ao marcar a caixa de seleção, a resposta associada à pergunta será exibida.
