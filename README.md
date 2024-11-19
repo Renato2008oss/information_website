@@ -48,31 +48,31 @@ As perguntas são agrupadas por categorias e exibidas como cartões interativos.
 # Arquivos
 
 ## index.html
-Este é o arquivo principal que contém a estrutura HTML da aplicação, incluindo a inclusão de estilo e scripts.
+Este é o **arquivo principal** que contém a **estrutura HTML** da aplicação, incluindo a **inclusão de estilo e scripts**.
 
 ## assets/style.css
-Este arquivo contém os estilos da página, incluindo design responsivo e animações para os cartões de pergunta.
+Este arquivo contém os **estilos da página**, incluindo **design responsivo e animações para os cartões de pergunta**.
 
 ## scripts/app.js
-Este arquivo contém a lógica para renderizar os flashcards e alternar a visibilidade das respostas.
+Este arquivo contém a **lógica para renderizar os flashcards** e **alternar a visibilidade das respostas**.
 
 ## scripts/pergunta.js
-Este arquivo contém as perguntas e respostas. Você pode adicionar novas perguntas facilmente aqui.
+Este arquivo contém as **perguntas e respostas**. Você pode **adicionar** novas perguntas facilmente aqui.
 
 # Como Usar
-1. Clone ou baixe o repositório.
-2. Abra o arquivo index.html em um navegador.
-3. Interaja com os flashcards clicando nas caixas de seleção para revelar as respostas.
+1. **Clone ou baixe o repositório.**
+2. **Abra o arquivo index.html em um navegador.**
+3. **Interaja com os flashcards clicando nas caixas de seleção para revelar as respostas.**
 
 ### PS: Caso não queira instalar o projeto, haverá uma Branch específica para download do projeto compactado
 
 # Contribuições
 Este projeto é de código aberto. Se você quiser adicionar mais perguntas, melhorar o design ou corrigir algum erro, fique à vontade para contribuir!
 
-1. Faça um fork do projeto.
-2. Crie uma branch (git checkout -b minha-feature).
-3. Faça suas alterações.
-4. Envie um pull request.
+1. **Faça um fork do projeto.**
+2. **Crie uma branch (git checkout -b minha-feature).**
+3. **Faça suas alterações.**
+4. **Envie um pull request.**
 
 # Licença
 ## Este código é um projeto Alura desenvolvido por Renato Justino
