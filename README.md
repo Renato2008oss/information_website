@@ -19,6 +19,7 @@ Este projeto é uma aplicação web interativa de flashcards, que permite que vo
   │     ├── app.js               # Lógica principal de interação com os flashcards
   │     └── pergunta.js          # Perguntas e respostas
   └── index.html                 # Página principal
+```
 
 ## Dependências
 
