@@ -5,8 +5,8 @@ Este projeto é uma aplicação web interativa de flashcards, que permite que vo
 ## Estrutura do Projeto
 - A aplicação está dividida em três partes principais:
 
-  . **HTML**: A estrutura da página.
-  . **CSS**: Estilos e formatação da página.
+  . **HTML**: A estrutura da página. <br>
+  . **CSS**: Estilos e formatação da página. <br>
   . **JavaScript**: Lógica para interatividade, incluindo a renderização dinâmica dos flashcards
 
 ## Estrutura de Pastas
