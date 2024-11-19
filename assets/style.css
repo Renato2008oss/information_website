@@ -1,0 +1,133 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Container principal de categorias */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Cartão da categoria (cartãozão) */
+.categoria {
+    background-color: #fff;
+    border: 2px solid #6200ea;
+    border-radius: 8px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 20px;
+}
+
+/* Efeito de hover para ampliar o cartão da categoria */
+.categoria:hover {
+    transform: scale(1.05);
+}
+
+/* Título da categoria */
+.categoria h2 {
+    font-size: 1.5rem;
+    color: #6200ea;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Cartões das perguntas dentro de cada categoria */
+.cartao {
+    background-color: #fff;
+    border: 2px solid #6200ea;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+}
+
+/* Efeito de hover para os flashcards das perguntas */
+.cartao:hover {
+    transform: scale(1.05);
+}
+
+/* Título da pergunta dentro do flashcard */
+.cartao__conteudo h3 {
+    color: #6200ea;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+/* Checkbox para interagir com as perguntas */
+.checkbox-pergunta {
+    margin-right: 10px;
+}
+
+/* Pergunta dentro do flashcard */
+.cartao__conteudo__pergunta {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Resposta dentro do flashcard, escondida inicialmente */
+.cartao__conteudo__resposta {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+    display: block; /* Inicialmente escondido */
+}
+
+/* Mostrar a resposta quando a checkbox estiver marcada */
+.cartao__conteudo__resposta.hidden {
+    display: none; /* Torna a resposta visível */
+}
+
+/* Esconde elementos com a classe 'hidden' */
+.hidden {
+    display: none;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
